@@ -1,0 +1,30 @@
+
+<HTML>
+
+<TITLE> SHOW FILES LIST </TITLE>
+
+<body>
+
+<H1> <CENTER> Show Directory content </CENTER> </H1>
+
+<CENTER>
+
+<form action="/showfiles" method="get">
+
+<label for="fpath"> Enter File path </label><br><br>
+
+  <input type="text" id = "fpath" name = "fpath" size="50"><br><br>
+
+  <div>   
+   
+   <input type="Submit" value="Show Files" />
+  
+  </div>
+
+</CENTER>
+
+</form>
+
+</body>
+
+</html >
